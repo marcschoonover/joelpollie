@@ -1,229 +1,214 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joel Pollie - Mystery/Detective Author</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #f5f5f5;
+            background-color: #0d0d0d;
+            overflow-x: hidden;
+        }
+        header {
+            position: relative;
+            background: url('https://drive.google.com/thumbnail?id=1_aUEQGNomTo7Tel1gh-wb7plbb6c3pFl&sz=w1000') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.8);
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        header h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 4.5em;
+            margin: 0;
+            color: #e8c547;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+        }
+        header p {
+            font-size: 1.7em;
+            margin: 20px 0;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+        }
+        header a {
+            text-decoration: none;
+            padding: 15px 40px;
+            background: #e8c547;
+            color: #121212;
+            font-weight: bold;
+            font-size: 1.3em;
+            border-radius: 5px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        header a:hover {
+            background: #f0a500;
+            color: #fff;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(13, 13, 13, 0.9);
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            z-index: 10;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+        }
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #e8c547;
+        }
+        section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .about {
+            background: linear-gradient(135deg, #1b1b1b, #121212);
+            color: #e8e8e8;
+            padding: 100px 20px;
+        }
+        .about h2 {
+            font-family: 'Merriweather', serif;
+            font-size: 3em;
+            color: #e8c547;
+        }
+        .about p {
+            font-size: 1.3em;
+            line-height: 1.8;
+            margin: 20px auto;
+            max-width: 850px;
+            text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+        }
+        .books {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+            background: #121212;
+            padding: 80px 20px;
+        }
+        .book-card {
+            background: #1f1f1f;
+            border: 1px solid #444;
+            border-radius: 10px;
+            padding: 20px;
+            width: 320px;
+            text-align: center;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .book-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.7);
+            border-color: #e8c547;
+        }
+        .book-card img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .book-card h3 {
+            color: #e8c547;
+            font-size: 1.7em;
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #0d0d0d;
+            color: #777;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            border-top: 3px solid #444;
+        }
+        footer a {
+            color: #e8c547;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #f0a500;
+        }
+    </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Joel Pollie - Mystery/Detective Author&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Roboto', sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #f5f5f5;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #0d0d0d;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>overflow-x: hidden;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>header {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: url('https://drive.google.com/thumbnail?id=1_aUEQGNomTo7Tel1gh-wb7plbb6c3pFl&amp;sz=w1000') no-repeat center center/cover;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>height: 100vh;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #fff;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.8);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>animation: fadeIn 2s ease-in-out;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>@keyframes fadeIn {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>from { opacity: 0; }</p>
-<p class="p1"><span class="Apple-converted-space">            </span>to { opacity: 1; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>header h1 {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Merriweather', serif;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 4.5em;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #e8c547;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>header p {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.7em;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 20px 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>header a {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 15px 40px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: #e8c547;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #121212;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.3em;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.3s, box-shadow 0.3s;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>header a:hover {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: #f0a500;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #fff;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-5px);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>nav {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>position: fixed;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>top: 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(13, 13, 13, 0.9);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>z-index: 10;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>nav a {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #f5f5f5;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.2em;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transition: color 0.3s;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>nav a:hover {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #e8c547;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>section {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 80px 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.about {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(135deg, #1b1b1b, #121212);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #e8e8e8;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 100px 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.about h2 {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Merriweather', serif;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 3em;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #e8c547;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.about p {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.3em;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.8;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 20px auto;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>max-width: 850px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.books {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>flex-wrap: wrap;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>gap: 50px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: #121212;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 80px 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.book-card {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: #1f1f1f;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #444;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 320px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.3s, box-shadow 0.3s;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.book-card:hover {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-10px);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 12px 20px rgba(0, 0, 0, 0.7);</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-color: #e8c547;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.book-card img {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>height: 400px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>object-fit: cover;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 15px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.book-card h3 {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #e8c547;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.7em;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>footer {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: #0d0d0d;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #777;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px 0;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 40px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-top: 3px solid #444;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>footer a {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #e8c547;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>transition: color 0.3s;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>footer a:hover {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #f0a500;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#about"&gt;About&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#books"&gt;Books&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#contact"&gt;Contact&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;Joel Pollie&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Mystery/Detective Author&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#books"&gt;Discover the Books&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="about" class="about"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;About Joel Pollie&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Joel Pollie grew up in a small farm town in Illinois before eventually settling in Chicago, where the contrasts between rural simplicity and urban complexity shaped his outlook on the world. Before pursuing his dream of writing full-time, Joel spent years building a career in the tech industry, immersing himself in the fast-paced environment of innovation and problem-solving.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;An avid reader inspired by the works of Agatha Christie and Sir Arthur Conan Doyle, Joel has always been drawn to crafting complex, imperfect characters who navigate life’s gray areas. This passion comes to life in the Prometheus Confidential series, which follows Reese Warren, a sharp-tongued, struggling detective who mixes grit and dry humor with an often unsteady moral compass. Reese’s battles with personal demons make for stories that are equal parts mystery and character exploration.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Joel’s writing is fueled by a love of storytelling, a belief in the power of flawed heroes, and, occasionally, a glass of whiskey to spark creative inspiration. When he’s not writing, Joel enjoys exploring Chicago’s vibrant neighborhoods, reflecting on the quirks of human nature, and shaping the next chapter in the Prometheus Confidential series.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="books" class="books"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="book-card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">             </span>&lt;img src="https://drive.google.com/thumbnail?id=1O09_98cSyd3zHcGQiBOuZvzZzMAY4Xse&amp;sz=w1000" alt="Prometheus Confidential: The Case of the Stolen Diamond"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Prometheus Confidential: The Case of the Stolen Diamond&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Reese Warren dives into a high-stakes investigation when a priceless diamond is stolen, uncovering layers of deception and betrayal.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="book-card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="https://drive.google.com/thumbnail?id=1nNm0HLZs3UAzz9rISyEVe8AC3Plaw0nW&amp;sz=w1000" alt="Prometheus Confidential: The Case of the Vengeful Landlord"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3&gt;Prometheus Confidential: The Case of the Vengeful Landlord&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Strange happenings in a tenant's apartment pull Reese Warren into a web of paranoia, hallucinations, and an unexpected discovery.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer id="contact"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Connect with Joel on &lt;a href="#"&gt;Social Media&lt;/a&gt; or email &lt;a href="mailto:contact@joelnoosh.com"&gt;contact@joelnoosh.com&lt;/a&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div style="margin-top: 40px; text-align: center;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h3&gt;Stay Updated&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Join Joel's mailing list to get exclusive updates, behind-the-scenes insights, and more.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;form action="https://your-mail-service-url.com" method="POST" style="max-width: 500px; margin: 20px auto; text-align: center;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>type="email"<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>name="email"<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>placeholder="Enter your email address"<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>required<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>style="width: 100%; padding: 15px; margin-bottom: 15px; border: none; border-radius: 5px; font-size: 1em;"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;button<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>type="submit"<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>style="width: 100%; padding: 15px; border: none; border-radius: 5px; background: #e8c547; color: #121212; font-size: 1.2em; font-weight: bold; cursor: pointer; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Sign Up</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;/form&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Your email address is safe with us. Unsubscribe anytime.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-</body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#books">Books</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Joel Pollie</h1>
+        <p>Mystery/Detective Author</p>
+        <a href="#books">Discover the Books</a>
+    </header>
+
+    <section id="about" class="about">
+        <h2>About Joel Pollie</h2>
+        <p>Joel Pollie grew up in a small farm town in Illinois before eventually settling in Chicago, where the contrasts between rural simplicity and urban complexity shaped his outlook on the world. Before pursuing his dream of writing full-time, Joel spent years building a career in the tech industry, immersing himself in the fast-paced environment of innovation and problem-solving.</p>
+        <p>An avid reader inspired by the works of Agatha Christie and Sir Arthur Conan Doyle, Joel has always been drawn to crafting complex, imperfect characters who navigate life’s gray areas. This passion comes to life in the Prometheus Confidential series, which follows Reese Warren, a sharp-tongued, struggling detective who mixes grit and dry humor with an often unsteady moral compass. Reese’s battles with personal demons make for stories that are equal parts mystery and character exploration.</p>
+        <p>Joel’s writing is fueled by a love of storytelling, a belief in the power of flawed heroes, and, occasionally, a glass of whiskey to spark creative inspiration. When he’s not writing, Joel enjoys exploring Chicago’s vibrant neighborhoods, reflecting on the quirks of human nature, and shaping the next chapter in the Prometheus Confidential series.</p>
+    </section>
+
+    <section id="books" class="books">
+        <div class="book-card">
+             <img src="https://drive.google.com/thumbnail?id=1O09_98cSyd3zHcGQiBOuZvzZzMAY4Xse&sz=w1000" alt="Prometheus Confidential: The Case of the Stolen Diamond">
+            <h3>Prometheus Confidential: The Case of the Stolen Diamond</h3>
+            <p>Reese Warren dives into a high-stakes investigation when a priceless diamond is stolen, uncovering layers of deception and betrayal.</p>
+        </div>
+        <div class="book-card">
+            <img src="https://drive.google.com/thumbnail?id=1nNm0HLZs3UAzz9rISyEVe8AC3Plaw0nW&sz=w1000" alt="Prometheus Confidential: The Case of the Vengeful Landlord">
+            <h3>Prometheus Confidential: The Case of the Vengeful Landlord</h3>
+            <p>Strange happenings in a tenant's apartment pull Reese Warren into a web of paranoia, hallucinations, and an unexpected discovery.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+      <p>Connect with Joel on <a href="#">Social Media</a> or email <a href="mailto:contact@joelnoosh.com">contact@joelnoosh.com</a></p>
+      <div style="margin-top: 40px; text-align: center;">
+        <h3>Stay Updated</h3>
+        <p>Join Joel's mailing list to get exclusive updates, behind-the-scenes insights, and more.</p>
+        <form action="https://your-mail-service-url.com" method="POST" style="max-width: 500px; margin: 20px auto; text-align: center;">
+            <input 
+                type="email" 
+                name="email" 
+                placeholder="Enter your email address" 
+                required 
+                style="width: 100%; padding: 15px; margin-bottom: 15px; border: none; border-radius: 5px; font-size: 1em;">
+            <button 
+                type="submit" 
+                style="width: 100%; padding: 15px; border: none; border-radius: 5px; background: #e8c547; color: #121212; font-size: 1.2em; font-weight: bold; cursor: pointer; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);">
+                Sign Up
+            </button>
+          </form>
+    <p>Your email address is safe with us. Unsubscribe anytime.</p>
+    </div>
+  </footer>
+  </body>
 </html>
