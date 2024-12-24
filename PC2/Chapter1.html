@@ -32,12 +32,12 @@
             font-size: 1.2em;
             transition: color 0.3s;
         }
-        nav a:hover {
-            color: #e8c547;
+        nav a:hover, nav a.active {
+            color: #f5f5f5;
         }
         .content {
-            padding: 100px 20px;
-            max-width: 800px;
+            padding: 120px 20px 60px;
+            max-width: 900px;
             margin: auto;
         }
         .content h1 {
@@ -54,12 +54,19 @@
         }
         .content h3 {
             font-family: 'Merriweather', serif;
-            font-size: 2.2em;
+            font-size: 2.4em;
             color: #f5f5f5;
             margin-bottom: 20px;
         }
         .content p {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        .content hr {
+            border: none;
+            height: 2px;
+            background: #ccc;
+            margin: 40px 0;
         }
         footer {
             background: #0d0d0d;
@@ -76,27 +83,41 @@
         footer a:hover {
             color: #f0a500;
         }
+        .button-link {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            background-color: #e8c547;
+            color: #0d0d0d;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button-link:hover {
+            background-color: #f0a500;
+        }
+        @media (max-width: 768px) {
+            .content {
+                padding: 100px 15px 50px;
+            }
+            nav a {
+                font-size: 1em;
+                margin: 0 10px;
+            }
+        }
     </style>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BBW72GV2DX"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-BBW72GV2DX');
-</script>
 <body>
     <nav>
         <a href="/index.html">Home</a>
-        <a href="/signup.html">Updates</a>
+        <a href="/signup.html" class="active">Subscribe</a>
     </nav>
 
     <div class="content">
         <h1>Prometheus Confidential:</h1>
         <h2>The Case of the Vengeful Landlord</h2>
-        <hr width="97%" size="2">
+        <hr>
         <h3>Chapter 1</h3>
         <p>The smell hit me first—cardboard mixed with the faint tang of something metallic. Piles of unopened boxes lined the walls, stacked precariously above my head, turning the kitchen into a forgotten storeroom. Not quite a hoarder’s house yet, but give it a few more years, and he’ll be on TV.</p>
         <p>I didn’t want to be here. Six hours in a car, crossing state lines to visit some stranger named Luke? Not exactly how I wanted to spend my weekend. But Todd was relentless. “We need the money,” he kept saying. I asked Todd if we could just meet Luke in a public place—a coffee shop, a library, anywhere but his house—but Todd insisted we’d get more out of him in his own space.</p>
@@ -153,17 +174,15 @@
         <p>I leaned forward. “So, he’s stalking you?”</p>
         <p>“No. Maybe. I don’t know.” Luke stood abruptly and checked the front door to confirm it was still locked. He rubbed his hands together, as if trying to stay warm. “I know it sounds crazy,” Luke said, his voice cracking. “But… I think he’s trying to kill me.”</p>
         <p>I didn’t move for a moment, letting his words settle. The room felt colder somehow, the rhythmic scraping of the furnace filling the silence. “Alright, Luke,” I said, leaning forward. “Take a breath. Let’s start from the beginning.”</p>
-        <hr width="97%" size="2">
         
-        <p></p>
-        <p><i><font color="#e8c547">Read the next chapter: </font><a href="Chapter2.html">Next Chapter</a> </i></p>
-        <!--  
-        -->
-        <p><i><font color="#e8c547">Back to all chapters: </font><a href="index.html">Back</a></i></p>
+        <hr>
+        <a class="button-link" href="Chapter2.html">Next Chapter</a>
+        <a class="button-link" href="index.html">Back to All Chapters</a>
     </div>
 
     <footer>
         <p>"Prometheus Confidential" - A Mystery Thriller Series by Joel Pollie</p>
+        <p><a href="#">Follow on Social Media</a> | <a href="/signup.html">Subscribe to Newsletter</a></p>
     </footer>
 </body>
 </html>
