@@ -32,12 +32,12 @@
             font-size: 1.2em;
             transition: color 0.3s;
         }
-        nav a:hover {
-            color: #e8c547;
+        nav a:hover, nav a.active {
+            color: #f5f5f5;
         }
         .content {
-            padding: 100px 20px;
-            max-width: 800px;
+            padding: 120px 20px 60px;
+            max-width: 900px;
             margin: auto;
         }
         .content h1 {
@@ -49,17 +49,24 @@
         .content h2 {
             font-family: 'Merriweather', serif;
             font-size: 2;
-            color: #e8c547;
+            color: #f5f5f5;
             margin-bottom: 50px;
         }
         .content h3 {
             font-family: 'Merriweather', serif;
-            font-size: 2.2em;
+            font-size: 2.4em;
             color: #f5f5f5;
             margin-bottom: 20px;
         }
         .content p {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        .content hr {
+            border: none;
+            height: 2px;
+            background: #ccc;
+            margin: 40px 0;
         }
         footer {
             background: #0d0d0d;
@@ -76,27 +83,52 @@
         footer a:hover {
             color: #f0a500;
         }
+        .button-link {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            background-color: #e8c547;
+            color: #0d0d0d;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button-link:hover {
+            background-color: #f0a500;
+        }
+        .button-link2 {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            background-color: #aaa;
+            color: #0d0d0d;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        @media (max-width: 768px) {
+            .content {
+                padding: 100px 15px 50px;
+            }
+            nav a {
+                font-size: 1em;
+                margin: 0 10px;
+            }
+        }
     </style>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BBW72GV2DX"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-BBW72GV2DX');
-</script>
 <body>
     <nav>
         <a href="/index.html">Home</a>
-        <a href="#contact">Contact</a>
+        <a href="/signup.html" class="active">Subscribe</a>
     </nav>
 
     <div class="content">
         <h1>Prometheus Confidential:</h1>
         <h2>The Case of the Vengeful Landlord</h2>
-        <p><i><a href="index.html">Back to Table of Contents</a></i></p>
+        <hr>
         <h3>Chapter 2</h3>
         <p><i>Welcome to Belle Pointe</i>, the sign read in cheerful, faded letters as Luke’s station wagon rolled past. He eased up on the gas, carefully keeping the car under the speed limit. The last thing he wanted was to start off on the wrong foot with the locals. He didn’t know anyone here, and no one knew him—and that was exactly how he wanted it.</p>
         <p>Once, Luke had been Professor Luke Davenport, lecturing at a state-run university on the intricacies of the American novel. But years of budget cuts and dwindling enrollment had ended that. The school called it a “tough decision” in the email they sent him, but for Luke, it was the worst day of his life. Everything he’d built—gone with a click of the “send” button.</p>
@@ -201,17 +233,20 @@
         <p>Luke wasn’t sure if Charlene was joking or not. “Haunted? Fantastic. Maybe the ghost can explain why the endings of all the great American novels are so depressing. I’ve been dying for a second opinion.”</p>
         <p>Charlene raised an eyebrow. “What novels? ... Never mind—let’s head out.”</p>
         <p>As Luke followed Charlene back to his car, he couldn’t shake the thought of her words. Haunted? Maybe. But as the wind rattled the firehouse doors, he realized it wasn’t just the apartment that felt unsettled—it was the whole damn town.</p>
-        <p></p>
-        <p><i><font color="#e8c547"> Read the next chapter: </font><b>Chapter 3 COMING SOON!</b> </i></p>
-        <!--<p><i><font color="#e8c547">Read the next chapter: </font><a href="Chapter3.html">Next Chapter</a> </i></p> -->
-        <p><i><font color="#e8c547">Sign up to be notified when it is out: </font><a href="/signup.html">Notify Me</a></i></p>
-        <!--  
-        -->
-        <p><i><font color="#e8c547">Back to all chapters: </font><a href="index.html">Back</a></i></p>
+        
+        
+        <hr>
+        
+        <a class="button-link2">Next Chapter (COMING SOON)</a>
+        <!--<a class="button-link" href="Chapter3.html">Next Chapter</a>-->
+        <a class="button-link" href="signup.html">Notify me of release</a>
+        <a class="button-link" href="index.html">Back to All Chapters</a>
+        
     </div>
 
     <footer>
-        <p>Connect with Joel on <a href="#">Social Media</a> or email <a href="mailto:contact@joelnoosh.com">contact@joelpollie.com</a></p>
+        <p>"Prometheus Confidential" - A Mystery Thriller Series by Joel Pollie</p>
+        <p><a href="#">Follow on Social Media</a> | <a href="/signup.html">Subscribe to Newsletter</a></p>
     </footer>
 </body>
 </html>
