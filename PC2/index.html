@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joel Pollie - Read a Chapter</title>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -40,30 +40,82 @@
             margin: auto;
         }
         .content h1 {
-            font-family: 'Merriweather', serif;
+            font-family: 'Cinzel', serif;
             font-size: 2.5em;
             color: #e8c547;
-            margin-bottom: -30px;
+            text-align: center;
+            margin-bottom: -35px;
         }
         .content h2 {
-            font-family: 'Merriweather', serif;
-            font-size: 2;
-            color: #e8c547;
-            margin-bottom: 50px;
+            font-family: 'Cinzel', serif;
+            font-size: 2em;
+            color: #f5f5f5;
+            text-align: center;
+            line-height: 1.0;
+            margin-bottom: 60px;
+        }
+        .content h4 {
+            font-family: 'Cinzel', serif;
+            font-size: 16px;
+            color: #aaaaaa;
+            margin: 20px 0;
+            text-align: center;
+            font-style: italic;
+            line-height: 1.4;
         }
         .content h3 {
-            font-family: 'Merriweather', serif;
-            font-size: 2.2em;
+            font-family: 'Cinzel', serif;
+            font-size: 25px;
             color: #f5f5f5;
+            margin-top: 60px;
             margin-bottom: 20px;
+            text-align: center;
         }
-        .content p {
-            margin-bottom: 30px;
+        .toc {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
         }
-        a:link {
-            color: white;
-            background-color: transparent;
-            text-decoration: underline;
+        .chapter {
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .chapter:hover {
+            background: #333;
+            transform: scale(1.04);
+        }
+        .chapter a {
+            color: #e8c547;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            display: block;
+            width: 70%;
+            height: 100%;
+        }
+        .chapter a:hover {
+            text-shadow: 1px 1px 2px #000;
+        }
+        .chapter.coming-soon:hover .status {
+            color: #ffcc00;
+            font-weight: bold;
+        }
+        .chapter.coming-soon:hover {
+            background: #222;
+            transform: scale(1.02);
+        }
+        .status {
+            font-size: 0.8em;
+            color: #ccc;
+            margin-top: 0px;
+            margin-bottom: 0px;
         }
         footer {
             background: #0d0d0d;
@@ -72,29 +124,16 @@
             padding: 20px 0;
             border-top: 3px solid #444;
         }
-        footer a {
-            color: #e8c547;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        footer a:hover {
-            color: #f0a500;
+        footer p {
+            font-size: 1em;
+            margin: 0;
         }
     </style>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BBW72GV2DX"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-BBW72GV2DX');
-</script>
 <body>
     <nav>
         <a href="/index.html">Home</a>
-        <a href="#contact">Contact</a>
+        <a href="/signup.html">Updates</a>
     </nav>
     <img 
         src="/images/PC2 Cover.jpg" 
@@ -104,15 +143,29 @@
     <div class="content">
         <h1>Prometheus Confidential:</h1>
         <h2>The Case of the Vengeful Landlord</h2>
-        <h3>Table of Contents</h3>
-        <p><a href="Chapter1.html">Chapter 1</a></p>
-        <p><a href="Chapter2.html">Chapter 2</a><font color="#e8c547"><i> Published December 23, 2024</font></i></p>
-        <p><font color="#f5f5f5">Chapter 3 </font><font color="#e8c547"><i>Coming Soon</font></i></p>
-  
+        <hr width="97%" size="2">
+        <h4>Strange happenings in a tenant's apartment pull Reese Warren into a web of paranoia and unsettling mysteries, leading to an unexpected discovery.</h4>
+        <hr width="97%" size="2">
+        <h3><u>Table of Contents</u></h3>
+
+        <div class="toc">
+            <div class="chapter">
+                <a href="Chapter1.html">Chapter 1</a>
+                <p class="status">Available</p>
+            </div>
+            <div class="chapter">
+                <a href="Chapter2.html">Chapter 2</a>
+                <p class="status">Published Dec. 23, 2024</p>
+            </div>
+            <div class="chapter coming-soon">
+                <a>Chapter 3</a>
+                <p class="status" style="font-size:16px" ><i><b>Coming Soon</i></b></p>
+            </div>
+        </div>
     </div>
 
     <footer>
-        <p>Connect with Joel on <a href="#">Social Media</a> or email <a href="mailto:contact@joelnoosh.com">contact@joelpollie.com</a></p>
+        <p>"Prometheus Confidential" - A Mystery Thriller Series by Joel Pollie</p>
     </footer>
 </body>
 </html>
