@@ -41,50 +41,27 @@
             font-size: 1.5em;
             color: #f5f5f5;
         }
-        .form-container {
-            background: #121212;
-            border: 1px solid #444;
-            border-radius: 10px;
-            padding: 40px;
-            max-width: 500px;
-            text-align: center;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
-        }
-        .form-container h2 {
-            font-family: 'Merriweather', serif;
-            font-size: 2em;
-            color: #e8c547;
-            margin-bottom: 20px;
-        }
-        .form-container p {
-            font-size: 1.2em;
-            color: #e8e8e8;
-            margin-bottom: 30px;
-        }
-        .form-container input[type="email"] {
+        nav {
+            position: fixed;
+            top: 0;
             width: 100%;
-            padding: 15px;
-            margin-bottom: 20px;
-            border: none;
-            border-radius: 5px;
-            font-size: 1em;
+            background: rgba(13, 13, 13, 0.9);
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            z-index: 10;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
         }
-        .form-container button {
-            background: #e8c547;
-            color: #121212;
-            padding: 15px 40px;
-            border: none;
-            border-radius: 5px;
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 20px;
             font-weight: bold;
             font-size: 1.2em;
-            cursor: pointer;
-            transition: transform 0.3s, box-shadow 0.3s;
+            transition: color 0.3s;
         }
-        .form-container button:hover {
-            background: #f0a500;
-            color: #fff;
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+        nav a:hover {
+            color: #e8c547;
         }
         footer {
             margin-top: 40px;
@@ -112,6 +89,10 @@
     <!-- End MailerLite Universal -->
 </head>
 <body>
+    <nav>
+        <a href="javascript:history.back()">Back</a>
+        <a href="index.html">JoelPollie.com</a>
+    </nav>
     <header>
         <h1>Joel Pollie's Newsletter</h1>
         <p>Be the first to know about new releases, exclusive content, and updates from the world of Prometheus Confidential.</p>
