@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBW72GV2DX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-BBW72GV2DX');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prometheus Confidential Book 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #f5f5f5;
+            background-color: #0d0d0d;
+            line-height: 1.8;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(13, 13, 13, 0.9);
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            z-index: 10;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+        }
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #e8c547;
+        }
+        .topContent {
+            padding: 90px 10px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .content {
+            padding: 10px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .content h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 2.5em;
+            color: #e8c547;
+            text-align: center;
+            margin-bottom: -35px;
+        }
+        .content h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 2em;
+            color: #f5f5f5;
+            text-align: center;
+            line-height: 1.0;
+            margin-bottom: 60px;
+        }
+        .content h4 {
+            font-family: 'Cinzel', serif;
+            font-size: 16px;
+            color: #aaaaaa;
+            margin: 20px 0;
+            text-align: center;
+            font-style: italic;
+            line-height: 1.4;
+        }
+        .content h5 {
+            font-family: 'Roboto';
+            font-size: 14px;
+            color: #0;
+            margin: 20px 0;
+            text-align: center;
+            line-height: 1.4;
+        }
+        .content h3 {
+            font-family: 'Cinzel', serif;
+            font-size: 25px;
+            color: #f5f5f5;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .topContent h5 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            color: #111;
+            margin: 1px 0;
+            text-align: center;
+            font-style: italic;
+            line-height: 1.2;
+            padding: 10px;
+            border: 2px solid #444;
+            border-radius: 5px;
+            background: #e8c547;
+        }
+        .toc {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .chapter {
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .chapter:hover {
+            background: #333;
+            transform: scale(1.04);
+        }
+        .chapter a {
+            color: #e8c547;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            display: block;
+            width: 70%;
+            height: 100%;
+        }
+        .chapter a:hover {
+            text-shadow: 1px 1px 2px #000;
+        }
+        .chapter.coming-soon:hover .status {
+            color: #ffcc00;
+            font-weight: bold;
+        }
+        .chapter.coming-soon:hover {
+            background: #222;
+            transform: scale(1.02);
+        }
+        .chapter.coming-soon a:hover {
+            text-shadow: 1px 1px 2px #000;
+            color: #f5f5f5;
+        }
+        .status {
+            font-size: 0.8em;
+            color: #ccc;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        footer {
+            background: #0d0d0d;
+            color: #777;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 3px solid #444;
+        }
+        footer p {
+            font-size: 1em;
+            margin: 0;
+        }
+        footer a {
+            color: #e8c547;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #f0a500;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/signup.html">Updates</a>
+    </nav>
+    <img 
+        src="/images/PM1 Cover.jpg" 
+        alt="Book Cover" 
+        style="max-width: 300px; width: 80%; display: block; margin: 100px auto 5px auto; border: 5px solid #aaa;">
+    
+    <div class="content">
+        <h1>Prometheus Confidential:</h1>
+        <h2>The Case of the Stolen Diamond</h2>
+        <hr width="97%" size="2">
+        <h4>Reese Warren dives into a high-stakes investigation when a priceless diamond is stolen, uncovering layers of deception and betrayal.</h4>
+        <hr width="97%" size="2">
+        <h3><u>Description</u></h3>
+
+        <h5>Reese Warren is no stranger to chaos—whether it’s the struggles of day-to-day life or the complications of an investigation that seems doomed from the start. When a dazzling, uncut diamond worth ten million dollars mysteriously disappears from the City Museum of Science, Reese is unexpectedly hired by Mary Campbell, the ambitious Head of Special Exhibits. Mary’s trust in Reese’s detective abilities is puzzling, but with the museum’s reputation hanging by a thread, there’s no time to question motives.</h5>
+
+        <h5>As the investigation unfolds, Reese uncovers a tangled web of suspects: an enigmatic former employee with a grudge, a team of guards guarding secrets of their own, and a volunteer staff whose motives remain unclear. Adding to the challenge are vivid, haunting dreams that might hold the key to cracking the case—if their meaning can be deciphered. With every lead uncovering more questions than answers, Reese must navigate reluctant witnesses, mounting suspicions, and a past filled with failure to unearth the truth.</h5>
+
+        <h5><b><i>Prometheus Confidential: The Case of the Stolen Diamond</b></i> delivers twists, sharp humor, and a fresh take on the detective genre. Reese Warren may not be perfect, but in a mystery this convoluted, perfection is overrated.</h5>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Joel Pollie. All rights reserved. <a href="mailto:contact@joelpollie.com">Contact</a></p>
+        <p>Join the Newsletter: <a href="signup.html">Signup</a></p>
+    </footer>
+</body>
+</html>
