@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBW72GV2DX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-BBW72GV2DX');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Landlord Ch 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #f5f5f5;
+            background-color: #0d0d0d;
+            line-height: 1.8;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(13, 13, 13, 0.9);
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            z-index: 10;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+        }
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        nav a:hover, nav a.active {
+            color: #f5f5f5;
+        }
+        .content {
+            padding: 120px 20px 60px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .content h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 2.5em;
+            color: #e8c547;
+            margin-bottom: -30px;
+        }
+        .content h2 {
+            font-family: 'Merriweather', serif;
+            font-size: 2;
+            color: #f5f5f5;
+            margin-bottom: 50px;
+        }
+        .content h3 {
+            font-family: 'Merriweather', serif;
+            font-size: 2.4em;
+            color: #f5f5f5;
+            margin-bottom: 20px;
+        }
+        .content p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        .content hr {
+            border: none;
+            height: 2px;
+            background: #ccc;
+            margin: 40px 0;
+        }
+        footer {
+            background: #0d0d0d;
+            color: #777;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 3px solid #444;
+        }
+        footer a {
+            color: #e8c547;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #f0a500;
+        }
+        .button-link {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            background-color: #e8c547;
+            color: #0d0d0d;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button-link:hover {
+            background-color: #f0a500;
+        }
+        .button-link2 {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            background-color: #aaa;
+            color: #0d0d0d;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        @media (max-width: 768px) {
+            .content {
+                padding: 100px 15px 50px;
+            }
+            nav a {
+                font-size: 1em;
+                margin: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/signup.html" class="active">Subscribe</a>
+    </nav>
+
+    <div class="content">
+        <h1>Prometheus Confidential:</h1>
+        <h2>The Case of the Vengeful Landlord</h2>
+        <hr>
+        <h3>Chapter 4</h3>
+        <p>Over the last few weeks, Luke had been sleeping better, but the job search still weighed heavily on him. When Tom and Barbara connected him to Stephen at the printing mill in Myersville, Luke had been hopeful. Unfortunately, there were no openings, but Stephen secured him an interview at the Myersville library.</p>
+        <p>Luke woke earlier than usual that morning. The interview was scheduled for eight a.m., before the library opened, and Myersville was an hour’s drive away. He wasn’t a morning person and much preferred to sleep past sunrise, but his nerves wouldn’t have let him, anyway. Skipping breakfast, he attributed his queasy stomach to pre-interview jitters.</p>
+        <p>His car was parked at the far end of the apartment building, thanks to a mistake the night before. Arriving home late, he’d parked in front of his apartment, forgetting the single staircase to the second floor was at the opposite end. The extra walk didn’t bother him, but he felt foolish for his oversight. This is what happens when I stay out late, he thought with a twinge of self-reproach.</p>
+        <p>As he approached his car, a pile of cigarette butts scattered on the gravel near apartment nine caught his attention. Luke wasn’t one to judge smokers—he’d been one himself until five years ago when his students’ addiction to vaping made him realize his own dependence on cigarettes.</p>
+        <p>What irritated him wasn’t the smoking, but the carelessness. The filters were terrible for the environment, taking years to decompose, and tossing them aside was an inconsiderate act. Luke didn’t know his downstairs neighbor and had never heard a peep from apartment nine, but he couldn’t help forming a judgment: whoever they were, they didn’t seem like the kind of person he’d get along with.</p>
+        <p>Reaching for his car keys, Luke’s hand came up empty. A sinking realization hit him—they were still upstairs. “Brilliant,” he muttered, already dreading the walk back. He trudged back to his apartment, annoyed at himself for a second time that morning.</p>
+        <p>Despite the setbacks, Luke arrived at the library twenty minutes early. With nothing else to do, he sat in his car, hunger gnawing at his stomach. He glanced at the building’s unassuming brick exterior. Hopefully, this goes quickly. I need food, he thought.</p>
+        <p>His interview was with a young man—mid-30s, maybe—and Luke immediately felt off balance. He’d expected someone closer to retirement age, perhaps with glasses perched on their nose and a cardigan draped over their shoulders. The man introduced himself, though Luke didn’t catch the name, and dove straight into the interview.</p>
+        <p>“Have you ever worked in a library?”</p>
+        <p>“No.”</p>
+        <p>“Do you know how to use library computer systems?”</p>
+        <p>“No.”</p>
+        <p>“Do you have experience dealing with unruly people?”</p>
+        <p>“No.”</p>
+        <p>Luke was certain he’d failed. But to his surprise, the man leaned back in his chair, nodded once, and said, “Can you start today?”</p>
+        <p>“Uh… sure.”</p>
+        <p>Before Luke could fully process what had happened, the man handed him a set of keys and gave him an abrupt tour of the library. He pointed out the break room, mechanical room, and cleaning supplies closet before rushing out the door, leaving Luke alone in the quiet building. No instructions. No schedule. Just a wave and a pickup truck pulling out of the parking lot.</p>
+        <p>The day dragged. Not a single patron visited the library, and Luke wasn’t entirely sure what he was supposed to be doing. He spent most of his time wandering the aisles, reading random books, and occasionally browsing the internet. Around lunchtime, his stomach growled, prompting a search of the break room. He found a stash of packaged snacks—chips, granola bars, and a slightly stale pack of crackers—which made for an uninspired but sufficient meal.</p>
+        <p>By six o’clock, the library’s closing time, Luke was ready to leave. He gathered his things and headed to the front door, but when he pushed it, it didn’t budge. Confused, he tried the other door. Still locked. After a moment of fumbling, he spotted the flat handle just below the bar and pressed it. The door gave way.</p>
+        <p>Luke froze.</p>
+        <p>He hadn’t unlocked the door all day. No one had come in—not because the library was unpopular, but because it was never ‘opened’.</p>
+        <p>Groaning, he made a mental note: Unlock the door tomorrow. Assuming I still have a job.</p>
+        <p>When Luke got home, he parked as close to the stairs as possible, determined not to repeat the mistake from the previous night. Dinner consisted of a TV dinner, followed by another when the first didn’t quite fill him up.</p>
+        <p>As Luke was finishing his second dinner, the furnace kicked on with a loud thud, followed by a low rumble. He sighed, reminded once again that Greg still hadn’t fixed the stove. I’ll talk to him tomorrow, he thought. Exhausted, Luke headed to bed.</p>
+        <p>His new bed, courtesy of a connection Nancy had made with one of her clients, was a significant upgrade from the old one. As soon as his head hit the pillow, he was asleep.</p>
+        <p>A loud noise jolted Luke awake in the middle of the night. He blinked groggily in the darkness, his mind racing. What time is it? But before he could check, a faint creak outside his bedroom door froze him in place. It was unmistakable—the same creak the floor made whenever he stepped on that exact spot.</p>
+        <p>He stopped breathing for a moment. He sat motionless, straining to hear anything else. Minutes passed, the silence thick and heavy. Just as he began to convince himself it was nothing, the sound came again—this time louder.</p>
+        <p>Luke’s mind whirred with questions. Should I check? What if it’s an intruder? Can I scare them off? Or should I stay put and hope they leave?</p>
+        <p>He decided to act. Slowly, he rose from the bed, careful not to make a sound. Then, realizing he should alert whoever—or whatever—was out there, he deliberately kicked the bed frame. The sharp thunk reverberated through the room. “Who’s there?” he shouted, his voice firmer than he expected.</p>
+        <p>No response.</p>
+        <p>Gathering his courage, Luke opened the bedroom door. Darkness enveloped the apartment. Heart pounding, he crept to the kitchen and flipped on the lights. The room flooded with brightness, revealing… nothing. No intruder. No explanation for the sound. </p>
+        <p>Luke searched every corner of the small apartment. He checked the closets, the bathroom, even the storage room. Still nothing. The windows were locked. So was the front door. His rational mind whispered that he must have imagined it, but unease lingered. He glanced at his new bed. Could it be Ms. Gladstone? Did I offend her by getting rid of her bed?</p>
+        <p>Luke stood in the kitchen for fifteen minutes, staring at the apartment as if willing it to explain itself. Finally, he gave up and returned to bed. Sleep didn’t come easily, but eventually, exhaustion won.</p>
+        <p>Morning sunlight streaming through the windows woke Luke. The brightness was comforting, revealing every corner of his room and chasing away the night’s uncertainty. As he lay there, he replayed the noises in his mind. Was it just a dream? He wanted to believe it was, but the line between imagination and reality felt thinner than ever.</p>
+        <p>Luke sat at the small card table he’d been using as a dining area, spooning cereal from a plastic bowl and staring out the window at the woods behind his apartment. Morning sunlight filtered in, casting long shadows across the floor. It was a calm and peaceful moment, one he savored more than usual.</p>
+        <p>As he finished the last spoonful of cereal, his eyes wandered absently around the apartment. That’s when he noticed it: the coat closet by the front door was ajar, the door hanging open just enough to expose the shadowed interior, where the metal hooks gleamed faintly in the morning light.</p>
+        <p>Luke froze, spoon paused midway to the table. He distinctly remembered closing the door the night before—it was a habit, ingrained from years of living in cramped apartments where stray clutter felt suffocating.</p>
+        <p>Setting the spoon down, he got up slowly, heart thudding as he approached the closet. Each step magnified the tension in his chest, the hardwood creaking faintly beneath him. When he reached the door, his fingers hovered over the doorknob, a beat of hesitation anchoring him in place.</p>
+        <p>At the bottom of the closet, a lone shoe sat slightly askew, its mate tucked neatly beside it—an odd imbalance Luke didn’t recall leaving. His gaze lingered on the pair before moving upward, scanning the contents: two coats hanging stiffly on their hooks, boots crammed haphazardly into the corner, and on the shelf above, a box of spare lightbulbs leaning precariously, as if nudged. Nothing seemed overtly out of place, yet a quiet unease gnawed at him, whispering that something wasn’t right.</p>
+        <p>Maybe I left it open and didn’t realize it, he thought, though the explanation felt hollow. He shut the door firmly, the latch clicking into place with a satisfying finality. But as he stepped back, the feeling didn’t leave him. Something was off.</p>
+        <p>Luke returned to the table, his mind spinning. If someone had been in his apartment, why the closet? What would they have needed there? His gaze drifted to the smudged windowpane near the front door, a lingering mark that had bothered him ever since he’d noticed it.</p>
+        <p>The thought struck him like an icy wind: Could the person who left that handprint have been inside? But how? The deadbolt was secure. Still, the unease refused to be dismissed, clinging to him like a shadow.</p>
+        <p>Realizing the time, Luke hurried off to work, making sure to double-check the deadbolt as he left. The sense of relief was palpable—leaving the eerie apartment behind, even for a few hours, felt like a reprieve.</p>
+        <p>The library was still quiet, though a few people came and went, breaking the monotony of the previous day’s silence. Luke had remembered to unlock the door this time, a minor victory in an otherwise unsettling day. But despite the distraction of shelving books and helping the occasional visitor, his thoughts kept circling back to his apartment and the strange occurrences that had stacked up.</p>
+        <p>By the time his shift ended, Luke had resolved to take action, except he wasn’t exactly sure what he should do. On the drive back, his mind wandered, replaying the creaks, the open closet door, and the handprint on the window. The occurrences seemed strange but too distinct to be connected like puzzle pieces didn’t fit together, and the gaps left room for his imagination to fill with darker possibilities. It wasn’t until he pulled into the parking lot that he snapped out of his thoughts, realizing he’d parked at the far end of the lot again. Idiot, he thought, frustrated with himself.</p>
+        <p>Stepping out of the car, his gaze fell on the pile of cigarette butts scattered across the gravel near apartment nine. The sight irked him more than usual, and he felt an irrational urge to march to the neighbor’s door and confront them. He pictured himself delivering a lecture to some twenty-something year-old—someone who might have been his student in another life—about the dangers of smoking and the inconsiderate nature of leaving trash everywhere.</p>
+        <p>But as he looked up toward the second-floor balcony, the realization struck him like a wave hitting the sands of a beach.</p>
+        <p>The cigarette butts weren’t coming from apartment nine. They were from above.</p>
+        <p>His eyes locked on the stretch of balcony near his apartment window, and the story came together with chilling clarity: Someone wasn’t just peering through my window, they were watching; flicking their spent cigarettes over the railing.</p>
+        <p>Luke stood frozen, the weight of the realization pressing down on him. His mind raced with questions he wasn’t ready to answer: Who were they? How long had they been there? And why the hell were they watching me?</p>
+        <p>Before he realized it, Luke was striding across the parking lot toward Greg’s apartment, his fist already raised to knock. The sound of his pounding echoed through the quiet night, loud enough to wake half the building. If the culprit was nearby, Luke wanted them to hear his anger—and think twice about trying anything again.</p>
+        <p>Greg opened the door wide, his face a mix of confusion and mild annoyance. “What’s going on?”</p>
+        <p>“Someone broke into my apartment last night,” Luke said, his voice firm and unwavering. “And I think they’ve been watching me for weeks.”</p>
+        <p>Greg’s brows shot up. “Broke in? Did they smash a window? Kick the door in?”</p>
+        <p>“No,” Luke admitted, his stomach tightening.</p>
+        <p>Greg tilted his head, his expression skeptical. “Did you leave the door unlocked?”</p>
+        <p>“No,” Luke snapped. “The door was locked when I checked it. I think they had a key.”</p>
+        <p>“Well,” Greg said slowly, “you and I are the only ones with keys. Unless you made a copy and gave it to someone.”</p>
+        <p>“I didn’t,” Luke said, his eyes narrowing. He suspected Greg, but he wasn’t ready to accuse him outright. Not yet.</p>
+        <p>Greg folded his arms. “Alright, so what did they take?”</p>
+        <p>“That’s the thing—they didn’t take anything.”</p>
+        <p>Greg’s skepticism deepened. “So, let me get this straight. They’ve been watching you for weeks, broke in with a key that supposedly doesn’t exist, and didn’t steal a single thing? What makes you so sure someone was even in your apartment?”</p>
+        <p>“I heard footsteps,” Luke said. “In the middle of the night. The floorboards were creaking, clear as day.”</p>
+        <p>Greg sighed heavily and ran a hand over his face. “You’re not the first person to tell me something like this. Tenants have claimed they’ve heard or seen things before—ghosts, mostly. But it always turns out to be their imagination.”</p>
+        <p>Luke clenched his fists. “Ghosts? Not this again,” he said, shaking his head.</p>
+        <p>“What about the person below me?” Luke asked, grasping for anything to validate his experience. “Have they heard or seen anything strange?”</p>
+        <p>Greg hesitated, looking away briefly. “Haven’t heard a peep from them in months,” he said, shrugging. “Look, the building’s old. It settles, creaks—it’s just how these places are. What sounds like footsteps is probably just the floorboards shifting.”</p>
+        <p>Luke bit his lip, frustration bubbling to the surface.</p>
+        <p>Greg sighed again, his voice softening. “Look, I can’t take care of noises from an old building. If someone is actually breaking in, let me know, and I’ll see what I can do.”</p>
+        <p>Luke’s jaw tightened. “Fine.” He paused, defeated. “Could you at least fix the stove, like you promised?” Feeling a bit more dominant he added, “and take a look at the furnace. The noise wakes me up at night.”</p>
+        <p>Greg opened his mouth to respond, but Luke was already turning toward the stairs.</p>
+        <p>Back in his apartment, a faint whiff of cigarette smoke caught his attention. It clung to the air inside, faint but distinct, as though it had seeped into the walls. Luke frowned, irritated that the smell seemed to have followed him in. I’ll deal with the neighbor in the morning, he thought, double-checking the lock before heading to bed.</p>
+        <p>That night, Luke lay in bed, staring at the ceiling. The apartment was silent, but sleep refused to come.</p>
+        <p><center>∗∗∗</center></p>
+        <p>Luke was probably wondering why we stepped outside without him, but I needed to talk to Todd.</p>
+        <p>“It’s clearly Greg,” I said, trying to keep my voice low. “Can we stop wasting time and just call the police?”</p>
+        <p>“No,” Todd replied quickly as he walked down the balcony and glanced into the other apartments. “His story has clues.” Todd paused as he pressed his hands against a window, peering into one of the units. “These apartments are eerie. I don’t think we should rule out that the place is haunted.”</p>
+        <p>“Ghosts?” I shot back, mildly annoyed that Todd was entertaining the idea. “I don’t even know why Luke called us. He suspects Greg! He’s just not sure if it’s breaking and entering or attempted murder. Let the police figure it out.”</p>
+        <p>“You saw Luke’s post,” Todd countered, looking into a different window. “He has no evidence. Just a gut feeling. That’s why he hired us.”</p>
+        <p>“Speaking of which…” I trailed off, narrowing my eyes. “I get the feeling Luke doesn’t have any money. How’s he going to pay us? Sell all that junk in his apartment?”</p>
+        <p>Todd didn’t answer, just moved further down the balcony, his focus fixed on something I couldn’t see.</p>
+        <p>“Todd?” I asked, following behind him. “How much is he paying us?”</p>
+        <p>Todd stopped, glancing back at me sheepishly. “I offered to do this one for free. It’s such an interesting case. And the more we solve, the bigger our reputation gets.”</p>
+        <p>My jaw dropped. “You’re kidding me,” I muttered, but Todd had already turned back to his self-appointed investigation.</p>
+        <p>I let out a frustrated sigh, ready to argue, but a thought stopped me. My stomach churned slightly, reminding me of how off I’d felt all afternoon.</p>
+        <p>“Hey,” I said, softening my tone. “How are you feeling?”</p>
+        <p>Todd straightened up, his brow furrowed. “What do you mean?”</p>
+        <p>“Lunch didn’t sit right with me,” I admitted. “I’ve felt off ever since. You’re fine, though?”</p>
+        <p>Todd shrugged. “Yeah, I’m good. Maybe it was just something you ate.”</p>
+        <p>“We at the same thing,” I said. “Well, maybe mine was just bad.”</p>
+        <p>Todd gave a quick nod and turned back toward the next window, seemingly unbothered.</p>
+        <p>I lingered for a moment, letting the cool night air clear my head before heading back to Luke’s apartment.</p>
+
+        
+        <hr>
+        
+        <a class="button-link2">Next Chapter (COMING SOON)</a>
+        <!--<a class="button-link" href="Chapter5.html">Next Chapter</a>-->
+        <a class="button-link" href="signup.html">Notify me when released</a>
+        <a class="button-link" href="index.html">Back to All Chapters</a>
+        
+    </div>
+
+    <footer>
+        <p>"Prometheus Confidential" - A Mystery Thriller Series by Joel Pollie</p>
+        <p><a href="#">Follow on Social Media</a> | <a href="/signup.html">Subscribe to Newsletter</a></p>
+    </footer>
+</body>
+</html>
